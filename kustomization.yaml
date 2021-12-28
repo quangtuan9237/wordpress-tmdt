@@ -1,0 +1,9 @@
+---
+secretGenerator:
+  - name: mysql-pass
+    literals:
+      - password=bach_khoa_hcm
+resources:
+  - mysql-deployment.yaml
+  - wordpress-deployment.yaml
+  - ingress.yaml
