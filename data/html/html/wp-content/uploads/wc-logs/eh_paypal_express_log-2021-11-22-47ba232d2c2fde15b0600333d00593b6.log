@@ -1,0 +1,102 @@
+2021-11-22T10:25:57+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://wordpress.quangtuan.me/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=true&p=https://wordpress.quangtuan.me/checkout/
+    [CANCELURL] => https://wordpress.quangtuan.me/cart/?cancel_order=true&order=wc_order_5KWukJJuiXwQG&order_id=777&redirect=https%3A%2F%2Fwordpress.quangtuan.me%2Fcheckout%2F&_wpnonce=f818e454ba&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => BK Store
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => MacBook Air 13 inch M1 2020 x 1
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 25900000
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://wordpress.quangtuan.me/product/apple-macbook-air-2020-mgn63saa/
+    [PAYMENTREQUEST_0_AMT] => 25960000
+    [PAYMENTREQUEST_0_CURRENCYCODE] => VND
+    [PAYMENTREQUEST_0_ITEMAMT] => 25900000
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 60000
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 45430000
+    [PAYMENTREQUEST_0_SHIPTONAME] => Truong Phan Thanh 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Tan phu
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => TPHCM
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 70000
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => VN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 0852373580
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => phantruongbovi@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 777
+)
+
+2021-11-22T10:25:58+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2021-11-22T10:25:58Z
+    [CORRELATIONID] => c4417541ac421
+    [ACK] => Failure
+    [BUILD] => 56144363
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+2021-11-22T10:26:02+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://wordpress.quangtuan.me/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=true&p=https://wordpress.quangtuan.me/cart/
+    [CANCELURL] => https://wordpress.quangtuan.me/cart/?cancel_order=true&order=wc_order_bLlDnTwbRKEcB&order_id=778&redirect=https%3A%2F%2Fwordpress.quangtuan.me%2Fcart%2F&_wpnonce=f818e454ba&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => BK Store
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => MacBook Air 13 inch M1 2020 x 1
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 25900000
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://wordpress.quangtuan.me/product/apple-macbook-air-2020-mgn63saa/
+    [PAYMENTREQUEST_0_AMT] => 25960000
+    [PAYMENTREQUEST_0_CURRENCYCODE] => VND
+    [PAYMENTREQUEST_0_ITEMAMT] => 25900000
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 60000
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 45430000
+    [PAYMENTREQUEST_0_SHIPTONAME] => Truong Phan Thanh 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Tan phu
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => TPHCM
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 70000
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => VN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 0852373580
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => phantruongbovi@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 778
+)
+
+2021-11-22T10:26:04+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2021-11-22T10:26:03Z
+    [CORRELATIONID] => de2323e1206cd
+    [ACK] => Failure
+    [BUILD] => 56144363
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
